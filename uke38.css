@@ -1,0 +1,62 @@
+
+* {
+    font-family: sans-serif;
+} /*Her gjør jeg all teksten på siden til sans-sherif fonten*/
+
+body {
+    background-color: #99cc99;
+} /*Her gjør jeg bakgrunen samme farge som den ekte ACME siden*/
+
+.linje {
+    height: 10px;
+    background-color: #cccc99;
+    border-color: #cccc99;
+    border-width: 2px;
+} /*Jeg justerer høyden, fargen, og borderen til linjen, slik at den ser ut som den på ACME siden*/
+
+.gif {
+    width: 100px;
+    height: auto;
+} /*jeg tilpasser størrelsen på begge gifene */
+
+.atom {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    margin: 10px;
+} /*Jeg setter atom gifen i høyre hjørnet*/
+
+.anvil {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    margin: 10px;
+} /*Jeg setter anvil gifen i venstre hjørnet*/
+
+div {
+    text-align: center;
+} /*Her setter jeg overskriftene i midten av sjermen*/
+
+h1 {
+    margin: 0;
+    padding: 10px;
+} /*Her tilpasser jeg overskriften sin distanse fra underoverskriftene*/
+
+h3 {
+    margin-top: 0       ;
+} /*Her tilpasser jeg underoverskriften sin distanse fra overskriften*/
+
+a {
+    font-weight: bold;
+} /*Her gjør jeg teksten på alle linkene bold, dette får teksten til å ligne ACME nettsiden mye mer*/
+
+.htmlpicture {
+    float: right
+} /*Jeg setter det siste bildet på høyre side av sjermen*/
+
+.email {
+    text-align: left;
+    font-size: small;
+} /*Jeg justerer størrelsen på emailen, og setter den på venstre side av sjermen*/
+
+
